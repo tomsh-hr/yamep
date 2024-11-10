@@ -1,0 +1,41 @@
+/* Blue Theme */
+
+QWidget {
+    background-color: #20232a;
+    color: #61dafb;
+    font-size: 12pt;
+}
+
+QTextEdit, QPlainTextEdit {
+    background-color: #282c34;
+    color: #61dafb;
+    font-size: 12pt;
+}
+
+QPushButton {
+    background-color: #3b4048;
+    color: #61dafb;
+}
+
+QPushButton:hover {
+    background-color: #4b515c;
+}
+
+QTabWidget::pane {
+    border: 1px solid #444444;
+}
+
+QTabBar::tab {
+    background: #3b4048;
+    color: #61dafb;
+    padding: 5px;
+}
+
+QTabBar::tab:selected {
+    background: #4b515c;
+}
+
+QTreeWidget {
+    background-color: #282c34;
+    color: #61dafb;
+}

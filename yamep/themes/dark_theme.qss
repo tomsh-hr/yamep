@@ -1,0 +1,41 @@
+/* Dark Theme */
+
+QWidget {
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+QTextEdit, QPlainTextEdit {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+QPushButton {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+QPushButton:hover {
+    background-color: #3e3e3e;
+}
+
+QTabWidget::pane {
+    border: 1px solid #444444;
+}
+
+QTabBar::tab {
+    background: #2e2e2e;
+    color: #ffffff;
+    padding: 5px;
+}
+
+QTabBar::tab:selected {
+    background: #3e3e3e;
+}
+
+QTreeWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}

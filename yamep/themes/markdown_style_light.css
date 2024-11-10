@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #333; /* Dark text color for light background */
+    background-color: #ffffff; /* Match the light theme background */
+    margin: 10px;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #005f87;
+}
+
+/* Code Blocks */
+code, pre {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Links */
+a {
+    color: #005f87;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+    color: #555;
+}
+
+/* Tables */
+table {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Task Lists */
+li.task-list-item {
+    list-style-type: none;  /* Remove bullet point */
+    margin-left: 0;         /* Remove indentation */
+    padding-left: 0;
+    font-size: 16px;
+}
+
+li.task-list-item::marker {
+    content: '';  /* Remove any default markers */
+}
+
+/* Optional: Adjust the font family if needed */
+li.task-list-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

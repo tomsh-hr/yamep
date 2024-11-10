@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    margin: 10px;
+}
+
+/* Headers */
+h1 {
+    color: #005f87;
+    border-bottom: 2px solid #005f87;
+}
+
+h2 {
+    color: #005f87;
+    border-bottom: 1px solid #005f87;
+}
+
+/* Code Blocks */
+code {
+    background-color: #f5f5f5;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+/* Links */
+a {
+    color: #005f87;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Task Lists */
+li.task-list-item {
+    list-style-type: none;  /* Remove bullet point */
+    margin-left: 0;         /* Remove indentation */
+    padding-left: 0;
+    font-size: 16px;
+}
+
+li.task-list-item::marker {
+    content: '';  /* Remove any default markers */
+}
+
+/* Optional: Adjust the font family if needed */
+li.task-list-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

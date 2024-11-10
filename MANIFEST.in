@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include yamep/themes *
+recursive-include yamep/resources *

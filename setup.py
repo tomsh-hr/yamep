@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yamep',
-    version='1.0.0',
+    version='1.0.1',
     author='tomsh',
     author_email='tomsh@disroot.org',
     description='YAMEP - Yet Another Markdown Editor in Python',

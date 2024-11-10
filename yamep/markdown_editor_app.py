@@ -266,7 +266,7 @@ class MarkdownEditorApp(QWidget):
             self.setWindowIcon(icon)
         else:
             # Fallback to packaged icon
-            icon_data = importlib.resources.read_binary('yamep.resources', 'icon.png')
+            icon_data = importlib.resources.read_binary('yamep.resources', 'yamep.png')
             pixmap = QPixmap()
             pixmap.loadFromData(icon_data)
             icon = QIcon(pixmap)
